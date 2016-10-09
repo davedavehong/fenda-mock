@@ -1,0 +1,23 @@
+<view class="about">
+	<view class="master-info">
+		<image src="/img/avatar/czy.png"></image>
+		<view class="master-brief">
+			<view class="master-user">陈章鱼</view>
+			<view class="master-fans"><text class="bold">2821</text> 收听</view>
+		</view>
+		<view class="master-follow">收听</view>
+	</view>
+	<view class="master-intro">知乎50万关注答主，人丑就该多读书</view>
+	<view class="detail">
+		<view>每年至少读100本书，加200天班，还抽空追10部美剧，涨了5斤体重</view>
+		<view>唯一能天天坚持的只有四件事：吃饭睡觉喘气读书</view>
+	</view>
+</view>
+<view class="quiz-wrapper">
+	<view class="quiz-info">公开提问</view>
+	<view class="quiz-input">
+		<textarea placeholder="向TA提问，等TA语音回答；超过48小时未回答，将按支付路径全额退款，被回答后可免费向TA追问" maxlength="5">向TA提问，等TA语音回答；超过48小时未回答，将按支付路径全额退款，被回答后可免费向TA追问</textarea>
+	</view>
+	<view class="quiz-cost">￥9.9</view>
+	<button class="submit">写好了</button>
+</view>

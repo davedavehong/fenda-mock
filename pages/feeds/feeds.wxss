@@ -1,0 +1,72 @@
+/**feeds.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.scroll-view-item{
+	background-color: #fff;
+	padding: 25rpx;
+	margin-bottom: 20rpx;
+}
+
+.item-ques{
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-size: 28rpx;
+	line-height: 36rpx;
+	color: #222;
+}
+.item-ans{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40rpx;
+
+}
+.voice-wrapper{
+
+}
+.person{
+
+}
+.item-ans image{
+	/*display: inline-block;*/
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+}
+.item-voice {
+	color: #fff;
+	position: absolute;
+	margin-left: 120rpx;
+	text-align: center;
+	width: 300rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 50rpx;
+	background-color: #1dcda6;
+}
+
+.item-pv{
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #aaa;
+}

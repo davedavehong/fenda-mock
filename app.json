@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/feeds/feeds",
+    "pages/search/search",
+    "pages/mine/mine",
+    "pages/person/person",
+    "pages/issue/issue"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#f5f5f5",
+    "navigationBarBackgroundColor": "#f85f48",
+    "navigationBarTitleText": "分答 - 付费语音问答",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "#231815",
+    "selectedColor": "#f85f48",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "pagePath": "pages/feeds/feeds",
+        "text": "收听",
+        "iconPath": "img/audient.png",
+        "selectedIconPath": "img/audient1.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "找人",
+        "iconPath": "img/search.png",
+        "selectedIconPath": "img/search1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/mine.png",
+        "selectedIconPath": "img/mine1.png"
+      }
+    ]
+  }
+}

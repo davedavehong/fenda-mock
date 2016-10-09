@@ -1,0 +1,24 @@
+<!--mine.wxml-->
+<view>
+	<view class="userinfo">
+		<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+		<text class="userinfo-nickname">戴某某</text>
+		<view class="userinfo-dig">开通我的「分答」</view>
+		<text class="userinfo-desc">收入90%归你，每晚结算，自动入库微信钱包</text>
+	</view>
+	<view class="profile-wrapper" catchtap="loadProfile">
+		<block wx:for="{{myProfile}}" >
+			<view class="profile" id="{{item.id}}">
+				<view class="profile-item"> {{item.desc}} </view>
+				<image class="profile-arrow" src="/img/arrow.png"></image>
+			</view>
+		</block>
+	</view>
+	<view class="account-wrapper">
+		<view class="account" wx:for="{{myAccount}}">
+			<view class="account-item"> {{item}} </view>
+			<image class="account-arrow" src="/img/arrow.png"></image>
+		</view>
+	</view>
+	<button type="default" class="btn-quit"> 退出登录 </button>
+</view>

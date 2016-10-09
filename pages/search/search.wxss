@@ -1,0 +1,68 @@
+.search-bar{	
+	margin-bottom: 30rpx;
+	padding: 10rpx 20rpx;
+	background-color: #fff;
+}
+
+.search-bar input{
+	font: inherit;
+	border-radius: 50rpx;
+	padding: 10rpx 20rpx;
+	background-color: #fafafa;
+	border: 1rpx solid #eee;
+}
+.column-title{
+	background-color: #fff;
+	text-align: center;
+	padding: 30rpx;
+	font-size: 28rpx;
+	color: #666;
+}
+.column-wrapper{
+	margin-bottom: 30rpx;
+}
+.master-info{
+	border-top: 1rpx solid #efefef;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 30rpx;
+	background-color: #fff;
+}
+.master-info image{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.master-brief{
+	height: 120rpx;
+	padding-left: 40rpx;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.master-user{
+	font-size: 30rpx;
+	letter-spacing: 1px;
+}
+.master-intro {
+	color: #888;
+	width: 300rpx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.master-fans{
+	color: #888;
+}
+.master-follow{
+	color: #ddd;
+	width: 80rpx;
+	padding: 10rpx;
+	border-radius: 50rpx;
+	background-color: #999;
+	text-align: center;
+}

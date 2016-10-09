@@ -1,0 +1,91 @@
+.about{
+	background-color: #fff;
+	margin-bottom: 20rpx;
+}
+.master-info{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	padding: 30rpx;
+	background-color: #fff;
+	margin-bottom: 30rpx;
+}
+.master-info image{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.master-brief{
+	height: 80rpx;
+	padding-left: 40rpx;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.master-user{
+	font-size: 30rpx;
+	letter-spacing: 1px;
+}
+.master-fans{
+	color: #888;
+}
+.master-follow{
+	color: #ddd;
+	width: 80rpx;
+	padding: 10rpx;
+	border-radius: 50rpx;
+	background-color: #999;
+	text-align: center;
+}
+.bold{
+	font-weight: bold;
+	color: #000;
+}
+.master-intro {
+	padding: 10rpx 30rpx;
+	letter-spacing: 1px;
+}
+.detail{
+	padding: 10rpx 50rpx 20rpx 30rpx;
+	letter-spacing: 1px;
+}
+.quiz-wrapper{
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	padding: 20rpx;
+}
+.quiz-info{
+	color: #888;
+	padding: 30rpx;
+}
+.quiz-input {
+	margin-bottom: 20rpx;
+}
+.quiz-input textarea{
+	display: block;
+	border-radius: 10rpx;
+	height: 150rpx;
+	width: 600rpx;
+	padding: 30rpx;
+	background-color: #fafafa;
+	color: #ddd;
+	border: 1rpx solid #ddd;
+}
+.quiz-cost{
+	margin: 20rpx;
+	font-size: 30rpx;
+	color: #f85f48;
+}
+.submit{
+	padding: 8rpx 35rpx;
+	background-color: #f85f48;
+	color: #fff;
+	font-size: 14rpx;
+	border-radius: 10rpx;
+}

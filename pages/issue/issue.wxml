@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view>
+	<view class="ques-wrapper">
+		<view class="ques-info">
+			<image src="/img/avatar/qust-avater.png"></image>
+			<view class="ques-sec">
+				<view class="ques-user">小不点</view>
+				<view class="ques-cost">￥12</view>
+			</view>
+		</view>
+		<view class="ques-content">最近"谷物大脑"很火，多个观点挑战传统观念，如杂物全麦等不利于大脑健康，容易造成老年痴呆症，请问您在吗解读本书观点
+		</view>
+		<view class="ans-wrapper">
+			<image src="/img/avatar/czy.png" mode="aspectFill" catchtap="toPerson" data-master="zr"></image>
+			<view class="ans-voice">点击播放</view>
+			<view class="ans-time">59"</view>
+		</view>
+		<view class="ans-info">
+			<view>1天前</view>
+			<view >听过2131</view>
+		</view>
+	</view>
+	<view class="master-info" bindtap="toPerson" data-master="czy">
+		<image src="/img/avatar/czy.png"></image>
+		<view class="master-brief">
+			<view class="master-user">陈章鱼</view>
+			<view class="master-intro">知乎50万关注答主，人丑就该多读书</view>
+			<view class="master-fans">2821收听</view>
+		</view>
+		<view class="master-follow">收听</view>
+	</view>
+</view>

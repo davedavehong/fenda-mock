@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" style="height: 100%;" bindscrolltoupper="upper" bindscrolltolower="lower">
+		<block wx:for="{{feedList}}">
+			<navigator class="scroll-view-item" url="../issue/issue?stamp={{item.stamp}}">
+			<text class="item-ques">{{item.question}}</text>
+			<view class="item-ans">
+				<image src="/img/avatar/{{item.masterAvatar}}" mode="aspectFill" catchtap="toPerson" data-master="{{item.masterID}}"></image>
+				<view class="item-voice">1元偷偷听</view>
+				<view class="item-pv">{{item.pv}}</view>
+			</view>
+		</navigator>
+		</block>
+</scroll-view>

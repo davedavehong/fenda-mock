@@ -1,0 +1,28 @@
+<template name="master-column">
+	<view class="master-info" bindtap="toPerson" data-master="czy">
+		<image src="/img/avatar/{{avater}}"></image>
+		<view class="master-brief">
+			<view class="master-user">{{name}}</view>
+			<view class="master-intro">{{intro}}</view>
+			<view class="master-fans">{{fans}} 收听</view>
+		</view>
+		<view class="master-follow">收听</view>
+	</view>
+</template>
+
+<view class="search-bar">
+	<input placeholder="搜索感兴趣的人和问题"></input>
+</view>
+<view class="column-title">热推名人</view>
+<view class="column-wrapper">
+	<block wx:for="{{hotMasters}}">
+		<template is="master-column" data="{{...item}}"/>
+	</block>
+</view>
+
+<view class="column-title">新晋榜</view>
+<view class="column-wrapper">
+	<block wx:for="{{newMasters}}">
+		<template is="master-column" data="{{...item}}"/>
+	</block>
+</view>
