@@ -8,6 +8,7 @@
 - [如何把握「微信小程序」这一波红利？ by 小道消息](http://mp.weixin.qq.com/s?src=3&timestamp=1476084572&ver=1&signature=9iql2gUC5J7Ore2nR-vE*H0gMx-FPnvh7tg-59H5QWMBRqIVFVSiJ*1d4P9Ynvx*jzG4x*-cw8VWd0zSXCy5JaC0Og6HZ0HOzPn0si-g2g-cdqwlcc46JxXsfUPfh5U5SjG6Jhwc2gHoN7hj4WkbQ-K-E-w0t6Hrb3YC-d7h*aw=)
 - [微信小程序，仅仅是 Web App 么？ by MacTalk](http://mp.weixin.qq.com/s?src=3&timestamp=1476084683&ver=1&signature=rI*ApZSTzdk20BrHyMgaF9eKgT77oadaMtoePyV-BXJIoHrWVpbxGeRnuoYv5B3cIVH2BPb5vx-4WI3JCrZm1m32V17Hqs6W1k7i2xtrU*iDM5FIvOHPSNb1UBzlh6Dfec6G3W2zNN57OXEtYWB*V4ENdABAgw*p*lItuVWU9Hc=)
 - [为什么你觉得只开发微信号是不行的？](https://kenengba.com/post/3517.html)
+
 ---
 
 ###feature
