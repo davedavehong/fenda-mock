@@ -11,6 +11,8 @@
 
 ---
 
+[个人关于「微信小程序」的一些见解](http://elephstor.com/blog/390)
+
 ###feature
 
 - flex布局
