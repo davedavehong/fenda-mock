@@ -3,7 +3,6 @@ var app = getApp()
 Page({
     data: {
         userInfo: {},
-        myProfile: ["我的分币", "我问", "我听"],
         myProfile: [{ "desc": "我的分币", "id": "coin" }, { "desc": "我问", "id": "myQues" }, { "desc": "我听", "id": "myHeared" }],
         myAccount: ["手机号码", "帮助", "结算说明", "关于分答"]
     },

@@ -1,55 +1,63 @@
 /**mine.wxss**/
+
 .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-  margin-bottom: 20rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20rpx;
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 30rpx;
-  border-radius: 50%;
+    width: 128rpx;
+    height: 128rpx;
+    margin: 30rpx;
+    border-radius: 50%;
 }
 
 .userinfo-nickname {
-  margin: 20rpx;
-  color: #666;
+    margin: 20rpx;
+    color: #300e0e;
 }
-.userinfo-dig{
-	margin: 15rpx auto;
-	padding: 20rpx 25rpx;
-	border-radius: 10rpx;
-	background-color: #f85f48;
-	color: #fff;
-	letter-spacing: 1px;
+
+.userinfo-dig {
+    margin: 15rpx auto;
+    padding: 20rpx 25rpx;
+    border-radius: 10rpx;
+    background-color: #f85f48;
+    color: #fff;
+    letter-spacing: 1px;
 }
-.userinfo-desc{
-	color: #bbb;
-	font-size: 14rpx;
-	margin-bottom: 20rpx;
+
+.userinfo-desc {
+    color: #bbb;
+    font-size: 14rpx;
+    margin-bottom: 20rpx;
 }
-.profile-wrapper,.account-wrapper{
-	background-color: #fff;
-  	margin-bottom: 20rpx;
+
+.profile-wrapper, .account-wrapper {
+    background-color: #fff;
+    margin-bottom: 20rpx;
 }
-.profile,.account{
-	display: flex;
+
+.profile, .account {
+    display: flex;
     padding: 30rpx;
     align-items: center;
     flex-direction: row;
     border-bottom: 1rpx solid #f0f0f0;
 }
-.profile-item,.account-item{
-	flex: 1;
-	font-size: 24rpx;
+
+.profile-item, .account-item {
+    flex: 1;
+    font-size: 24rpx;
 }
-.profile-arrow,.account-arrow{
-	width: 32rpx;
+
+.profile-arrow, .account-arrow {
+    width: 32rpx;
     height: 32rpx;
 }
-.btn-quit{
-  margin: 15rpx;
+
+.btn-quit {
+    margin: 15rpx;
 }

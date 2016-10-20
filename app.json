@@ -12,7 +12,7 @@
     "navigationBarBackgroundColor": "#f85f48",
     "navigationBarTitleText": "分答 - 付费语音问答",
     "navigationBarTextStyle":"white",
-    "enablePullDownRefresh":true
+    "enablePullDownRefresh":false
   },
   "tabBar": {
     "color": "#231815",

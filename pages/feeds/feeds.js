@@ -3,6 +3,7 @@
 var app = getApp()
 Page({
     data: {
+        hidden: true,
         motto: 'Hello World',
         userInfo: {},
         feedList: []
@@ -12,9 +13,6 @@ Page({
         wx.navigateTo({
             url: '../logs/logs'
         })
-    },
-    onPullDownRefreash: function() {
-        console.info("xiala")
     },
     onLoad: function() {
         var that = this
@@ -34,6 +32,9 @@ Page({
             }
         })
     },
+    onPullDownRefresh: function() {
+        console.info("被拉下了")
+    },
     toPerson: function(e) {
         console.log(e)
         wx.navigateTo({
@@ -47,8 +48,11 @@ Page({
         console.log("到底啦")
         if (this.requestFlag === false) {
             this.requestFlag = true
+            this.setData({
+                hidden: false
+            })
             var that = this
-            setTimeout(that.getFeeds, 1000)
+            setTimeout(that.getFeeds, 3000)
         }
     },
     requestFlag: false,
@@ -60,6 +64,10 @@ Page({
                 'Content-Type': 'application/json'
             },
             success: function(res) {
+                that.requestFlag = false
+                that.setData({
+                    hidden: true
+                })
                 var feedsStrorage = wx.getStorageSync('feeds') || []
                 feedsStrorage = feedsStrorage.concat(res.data)
                 that.setData({
@@ -68,7 +76,6 @@ Page({
                 try {
                     wx.setStorageSync('feeds', feedsStrorage)
                 } catch (e) {}
-                that.requestFlag = false
                 console.log("同步成功啦")
             }
         })
