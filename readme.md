@@ -1,7 +1,7 @@
-##「分答」 Power by 微信小程序
+## 「分答」 Power by 微信小程序
 
 
-###开发文档和背景阅读
+### 开发文档和背景阅读
 
 - [官方开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/)
 - [微信小程序设计指南](https://mp.weixin.qq.com/debug/wxadoc/design/)
@@ -14,7 +14,7 @@
 
 ---
 
-###feature
+### feature
 
 - flex布局
 
@@ -35,7 +35,7 @@ tabBar的第一个菜单「收听」使用了微信提供的组件scroll-view可
 找人页面的两个榜单均使用template渲染
 
 ---
-###TODOs
+### TODOs
 
 - 滚动到顶部时的动画效果
 
@@ -43,6 +43,6 @@ tabBar的第一个菜单「收听」使用了微信提供的组件scroll-view可
 
 - 完整的带参切换页面功能
 
-###预览图
+### 预览图
 
 ![预览图](http://elephstor.com/wxdev/catch.gif)
